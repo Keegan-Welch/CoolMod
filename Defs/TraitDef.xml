@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Defs>
+    <TraitDef>
+        <defName>Skibidi Toilet</DEFnAME>
+        <commonality>1</commonality>
+        <disabledWorkTags>
+            <li>Animals</li>
+        </disabledWorkTags>
+        <degreeDatas>
+            <li>
+                <label>Skibidi Toilet</label>
+                <description>[PAWN_nameDef] is a skibidi toilet. skibidi toilets are a race of gods among men. as a skibidi toilet, [PAWN_nameDef] can do anything better than any normal human.</description>
+                <degree>1</degree>
+            </li>
+    </TraitDef>
+</Defs>

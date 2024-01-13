@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Defs>
+    <ThingDef ParentName="ResourceBase">
+        <thingClass>ThingWithComps</thingClass>
+        <defName>MM_Resource</defName>
+        <label>Blahaj</label>
+        <description>IKEA Shark</description>
+        <statBases>
+            <MarketValue>200</MarketValue>
+            <MaxHitPoints>300<
+            <Mass>1</Mass>
+            <Flammability>0</Flammability>
+            <DeteriorationRate>0.1</DeteriorationRate>
+            <Beauty>5</Beauty>
+        </statBases>
+    </ThingDef>
+
+</Defs>
