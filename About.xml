@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ModMetaData>
+  <name>Crazy Mod :3</name>
+  <author>Keegan Welch</author>
+  <packageID>keeganWelch.crazyMod</packageID>
+  <description>This mod is the coolest and awesomest mod made by me</description>
+  <supportedVersions>
+    <li>1.4</li>
+  </supportedVersions>
+</ModMetaData>
