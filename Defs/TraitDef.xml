@@ -12,6 +12,13 @@
                 <label>Skibidi Toilet</label>
                 <description>[PAWN_nameDef] is a skibidi toilet. skibidi toilets are a race of gods among men. as a skibidi toilet, [PAWN_nameDef] can do anything better than any normal human.</description>
                 <degree>1</degree>
+                <statOffsets>
+
+<CarryingCapacity>5000</CarryingCapacity>
+
+<WorkSpeedGlobal>10</WorkSpeedGlobal>
+                </statOffsets>
             </li>
+        </degreeDatas>
     </TraitDef>
 </Defs>
