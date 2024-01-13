@@ -12,7 +12,7 @@
             <Mass>1</Mass>
             <Flammability>0</Flammability>
             <DeteriorationRate>0.1</DeteriorationRate>
-            <Beauty>5</Beauty>
+            <Beauty>200</Beauty>
         </statBases>
     </ThingDef>
 
