@@ -8,7 +8,7 @@
         <description>IKEA Shark</description>
         <statBases>
             <MarketValue>200</MarketValue>
-            <MaxHitPoints>300<
+            <MaxHitPoints>300</MaxHitPoints>
             <Mass>1</Mass>
             <Flammability>0</Flammability>
             <DeteriorationRate>0.1</DeteriorationRate>
