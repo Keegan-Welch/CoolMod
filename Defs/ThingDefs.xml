@@ -3,7 +3,7 @@
 <Defs>
     <ThingDef ParentName="ResourceBase">
         <thingClass>ThingWithComps</thingClass>
-        <defName>MM_Resource</defName>
+        <defName>CM_Resource</defName>
         <label>Blahaj</label>
         <description>IKEA Shark</description>
         <statBases>
@@ -14,6 +14,62 @@
             <DeteriorationRate>0.1</DeteriorationRate>
             <Beauty>200</Beauty>
         </statBases>
+    </ThingDef>
+
+    <ThingDef ParentName="ResourceBase">
+        <defName>CM_FemboyOre</defName>
+        <label>Femboy Ore</label>
+        <description>A beautiful stone that gives off a strong odor of monster energy and unwashed thigh highs.</description>
+        <graphicData>
+        <texPath>RimworldMod\Textures\Things\Item\Resource\Resource.png</texPath>
+        <graphicClass>Graphic_StackCount</graphicClass>
+        </graphicData>
+        <useHitPoints>false</useHitPoints>
+        <healthAffectsPrice>false</healthAffectsPrice>
+        <soundInteract>ChunkRock_Drop</soundInteract>
+        <soundDrop>ChunkRock_Drop</soundDrop>
+        <statBases>
+        <MarketValue>50</MarketValue>
+        <Mass>0.1</Mass>
+        <StuffPower_Armor_Sharp>9</StuffPower_Armor_Sharp>
+        <StuffPower_Armor_Blunt>4.5</StuffPower_Armor_Blunt>
+        <StuffPower_Armor_Heat>5.4</StuffPower_Armor_Heat>
+        <StuffPower_Insulation_Cold>30</StuffPower_Insulation_Cold>
+        <StuffPower_Insulation_Heat>0</StuffPower_Insulation_Heat>
+        <BluntDamageMultiplier>15</BluntDamageMultiplier>
+        </statBases>
+        <thingCategories>
+        <li>ResourcesRaw</li>
+        </thingCategories>
+        <deepCommonality>0.05</deepCommonality>
+        <deepCountPerPortion>1.5</deepCountPerPortion>
+        <deepLumpSizeRange>1~4</deepLumpSizeRange>
+        <burnableByRecipe>false</burnableByRecipe>
+        <smeltable>false</smeltable>
+        <stuffProps>
+        <categories>
+            <li>Stony</li>
+        </categories>
+        <commonality>0.005</commonality>
+        <color>(85,118,69)</color>
+        <constructEffect>ConstructMetal</constructEffect>
+        <soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
+        <soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
+        <soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
+        <statOffsets>
+            <Beauty>100</Beauty>
+        </statOffsets>
+        <statFactors>
+            <MaxHitPoints>5</MaxHitPoints>
+            <WorkToMake>1.4</WorkToMake>
+            <WorkToBuild>5.0</WorkToBuild>
+            <Beauty>5</Beauty>
+            <Flammability>0</Flammability>
+            <MeleeWeapon_CooldownMultiplier>1.3</MeleeWeapon_CooldownMultiplier>
+        </statFactors>
+        </stuffProps>
+        <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+        <allowedArchonexusCount>80</allowedArchonexusCount>
     </ThingDef>
 
 </Defs>
