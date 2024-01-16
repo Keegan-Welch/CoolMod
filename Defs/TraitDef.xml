@@ -2,7 +2,7 @@
 
 <Defs>
     <TraitDef>
-        <defName>Skibidi Toilet</defName>
+        <defName>CM_SkibidiToilet</defName>
         <commonality>1</commonality>
         <disabledWorkTags>
             <li>Animals</li>
@@ -17,6 +17,28 @@
 <CarryingCapacity>5000</CarryingCapacity>
 
 <WorkSpeedGlobal>10</WorkSpeedGlobal>
+                </statOffsets>
+            </li>
+        </degreeDatas>
+    </TraitDef>
+
+    <TraitDef>
+        <defName>CM_Femboy</defName>
+        <commonality>1</commonality>
+        <disabledWorkTags>
+            <li>Animals</li>
+            <li></li>
+        </disabledWorkTags>
+        <degreeDatas>
+            <li>
+                <label>Femboy</label>
+                <description>[PAWN_nameDef] is a femboy. They work slightly faster due to an abundance of monster energy in their bloodstream. Their smaller more fragile bodies result in a lower carrying capacity</description>
+                <degree>1</degree>
+                <statOffsets>
+
+<CarryingCapacity>0.75</CarryingCapacity>
+
+<WorkSpeedGlobal>1.5</WorkSpeedGlobal>
                 </statOffsets>
             </li>
         </degreeDatas>
