@@ -2,7 +2,7 @@
 <ModMetaData>
   <name>Crazy Mod :3</name>
   <author>Keegan Welch</author>
-  <packageID>keeganwelch.crazymod</packageID>
+  <packageid>keeganWelch.crazyMod</packageid>
   <description>this mod is the coolest and awesomest mod made by me</description>
   <supportedVersions>
     <li>1.4</li>
