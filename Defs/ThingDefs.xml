@@ -21,7 +21,7 @@
         <label>Femboy Ore</label>
         <description>A beautiful stone that gives off a strong odor of monster energy and unwashed thigh highs.</description>
         <graphicData>
-        <texPath>CM_Things\Item\Resource\Resource_CM_FemboyOre</texPath>
+        <texPath>CM_Things\Item\Resource_CM_FemboyOre</texPath>
         <graphicClass>Graphic_StackCount</graphicClass>
         </graphicData>
         <useHitPoints>false</useHitPoints>
