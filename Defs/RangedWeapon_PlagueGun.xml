@@ -44,7 +44,7 @@
     </weaponClasses>
     <costList>
     <Steel>30</Steel>
-    <ComponentIndustrial>2</ComponentIndustrial>
+    <Chemfuel>20</Chemfuel>
     </costList>
     <recipeMaker>
     <skillRequirements>
