@@ -14,7 +14,7 @@
                 <degree>1</degree>
                 <statOffsets>
 
-<CarryingCapacity>5000</CarryingCapacity>
+<CarryingCapacity>200</CarryingCapacity>
 
 <WorkSpeedGlobal>10</WorkSpeedGlobal>
                 </statOffsets>
