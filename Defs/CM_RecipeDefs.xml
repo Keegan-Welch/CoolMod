@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <RecipeDef>
+        <defName>CM_MakeKJ</defName>
+        <label>Turn Meowflower into Kayla Juice</label>
+        <description>Turn Meowflower into Kayla Juice</label>
+        <jobString>Making Kayla Juice from Meowflower</jobString>
+        <effectWorking>Cook</effectWorking>
+        <soundWorking>Recipe_CookMeal</soundWorking>
+        <workSkill>Cooking</workSkill>
+        <workAmount>300</workAmount>
+        <workSpeedStat>GeneralLabourSpeed</workSpeedStat>
+        <recipeUsers>
+            <li>CraftingSpot</li>
+            <li>DrugLab</li>
+        </recipeUsers>
+        <ingredients>
+        <li>
+            <filter>
+            <thingDefs>
+                <li>CM_Meowflower</li>
+            </thingDefs>
+            </filter>
+            <count>12</count>
+        </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>CM_Meowflower</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <products>
+            <CM_KaylaJuice>5</CM_KaylaJuice>
+        </products>
+    </RecipeDef>
+</Defs>
