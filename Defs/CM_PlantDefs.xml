@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Defs>
+    <ThingDef ParentName="PlantName" Name="MeowflowerBase" Abstract="True">
+        <graphicData>
+            <texPath>CM_Things/Plant/Meowflower</texPath>
+            <graphicClass>Graphic_Random</graphicClass>
+        </graphicData>
+        <selectable>true</selectable>
+        <plant>
+            <immatureGraphicPath>CM_Things/Plant/ImmatureMeowflower</immatureGraphicPath>
+            <growDays>8</growDays>
+            <dieIfLeafless>false</dieIfLeafless>
+            <harvestWork>400</harvestWork>
+            <harvestTag>Standard</harvestTag>
+            <harvestedThingDef>ExamplePlant_RawTheragold</harvestedThingDef>
+            <harvestYield>8</harvestYield>
+            <topWindExposure>0.1</topWindExposure>
+            <visualSizeRange>0.3~1.0</visualSizeRange>
+            <wildOrder>2</wildOrder>
+            <allowAutoCut>false</allowAutoCut>
+        </plant>
+    </ThingDef>
+
+    <ThingDef ParentName="MeowflowerBase">
+        <defName>CM_Meowflower</defName>
+        <label>Meowflower</label>
+        <description>A plant cultivated for generations across The Rim. Originally a genetically modified version of catnip, humans now consume it as a normal meal.</description>
+        <plant>
+            <growDays>5</growDays>
+            <sowWork>250</sowWork>
+            <sowMinSkill>6</sowMinSkill>
+            <sowTags> 
+                <li>Ground</li>
+                <li>Hydroponic</li>
+            </sowTags>
+            <purpose>Food</purpose>
+        </plant>
+    </ThingDef>
+
+    <ThingDef ParentName="MeowFlowerBase">
+        <defName>CM_MeowflowerWild</defName>
+        <label>Wild Meowflower</label>
+    </ThingDef>
+</Defs>
