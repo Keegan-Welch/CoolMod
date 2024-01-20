@@ -54,4 +54,15 @@
 			</li>
 		</degreeDatas>
 	</TraitDef>
+
+    <TraitDef>
+		<defName>CM_Catperson</defName>
+		<commonality>0.1</commonality>
+		<degreeDatas>
+			<li>
+				<label>Catperson</label>
+				<description>[PAWN_nameDef] is a Catperson. MEOW!</description>
+			</li>
+		</degreeDatas>
+	</TraitDef>
 </Defs>

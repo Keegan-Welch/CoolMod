@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+    <thingDef ParentName="PlantFoodRawBase">
+        <defName>CM_Meowflower</defName>
+        <label>Meowflower</label>
+        <description>A harvested meowflower. Very tasty.</description>
+        <graphicData>
+            <texPath>CM_Things/Item/Meowflower</texPath>
+        </graphicData>
+        <comps>
+            <li Class="CompProperties_Rottable">
+                <daysToRotStart>30</daysToRotStart>
+                <rotDestroys>true</rotDestroys>
+            </li>
+        </comps>
+    </thingDef>
+</Defs>
