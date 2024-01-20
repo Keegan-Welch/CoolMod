@@ -84,9 +84,51 @@
     </tools>
 </ThingDef>
 <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
-    <defName>CM_catSword</defName>
+    <defName>CM_ShortSword</defName>
     <label>Cat Sword</label>
-    <description>A sword made from the meat and fur of a cat. Quite inhumane.</description>
-    <texPath> </texPath>
+    <description>A basic shortsword for footsoldiers. Quite classic.</description>
+    <graphicData>
+        <texPath>CM_Things/Item/Resource_CM_ShortSword</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+        <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <costStuffCount>40</costStuffCount>
+    <statBases>
+        <WorkToMake>10000</WorkToMake>
+        <Mass>0.75</Mass>
+    </statBases>
+    <tools>
+  <li>
+    <label>handle</label>
+    <capacities>
+      <li>Blunt</li>
+    </capacities>
+    <power>9</power>
+    <cooldownTime>2</cooldownTime>
+  </li>
+  <li>
+    <label>point</label>
+    <capacities>
+      <li>Stab</li>
+    </capacities>
+    <power>14</power>
+    <cooldownTime>2</cooldownTime>
+  </li>
+  <li>
+    <label>edge</label>
+    <capacities>
+      <li>Cut</li>
+    </capacities>
+    <power>14</power>
+    <cooldownTime>2</cooldownTime>
+  </li>
+    </tools>
+    <recipeMaker>
+  <researchPrerequisite>Smithing</researchPrerequisite>
+  <skillRequirements>
+    <Crafting>2</Crafting>
+  </skillRequirements>
+  <displayPriority>409</displayPriority>
+    </recipeMaker>
 </ThingDef>
 </Defs>
