@@ -83,4 +83,10 @@
 </li>
     </tools>
 </ThingDef>
+<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+    <defName>CM_catSword</defName>
+    <label>Cat Sword</label>
+    <description>A sword made from the meat and fur of a cat. Quite inhumane.</description>
+    <texPath> </texPath>
+</ThingDef>
 </Defs>
