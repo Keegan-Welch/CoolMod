@@ -61,7 +61,11 @@
 		<degreeDatas>
 			<li>
 				<label>Catperson</label>
-				<description>[PAWN_nameDef] is a Catperson. MEOW!</description>
+				<description>[PAWN_nameDef] is a Catperson. MEOW! [PAWN_nameDef] works and moves way faster than the average person.</description>
+                <statOffsets>
+                    <MoveSpeed>100<moveSpeed>
+                    <GlobalWorkSpeed>100<GlobalWorkSpeed>
+                </statOffsets>
 			</li>
 		</degreeDatas>
 	</TraitDef>

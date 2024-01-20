@@ -71,5 +71,7 @@
         <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
         <allowedArchonexusCount>80</allowedArchonexusCount>
     </ThingDef>
-
+    <ThingDef>
+        <defName>CM_KaylaJuice</defName>
+    </ThingDef>
 </Defs>
