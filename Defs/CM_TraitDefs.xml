@@ -43,4 +43,15 @@
             </li>
         </degreeDatas>
     </TraitDef>
+
+    <TraitDef>
+		<defName>CM_British</defName>
+		<commonality>0.1</commonality>
+		<degreeDatas>
+			<li>
+				<label>British</label>
+				<description>[PAWN_nameDef] is british. A terrible plight.</description>
+			</li>
+		</degreeDatas>
+	</TraitDef>
 </Defs>
