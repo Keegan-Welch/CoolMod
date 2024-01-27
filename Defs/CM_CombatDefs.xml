@@ -85,7 +85,7 @@
 </ThingDef>
 <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
     <defName>CM_ShortSword</defName>
-    <label>Cat Sword</label>
+    <label>shortsword</label>
     <description>A basic shortsword for footsoldiers. Quite classic.</description>
     <graphicData>
         <texPath>CM_Things/Item/Resource_CM_ShortSword</texPath>
