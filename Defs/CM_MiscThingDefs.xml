@@ -51,13 +51,13 @@
             <li>Stony</li>
         </categories>
         <commonality>0.005</commonality>
-        <color>(85,118,69)</color>
+        <color>(213, 20, 219)</color>
         <constructEffect>ConstructMetal</constructEffect>
         <soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
         <soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
         <soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
         <statOffsets>
-            <Beauty>100</Beauty>
+            <Beauty>5</Beauty>
         </statOffsets>
         <statFactors>
             <MaxHitPoints>5</MaxHitPoints>
@@ -73,5 +73,16 @@
     </ThingDef>
     <ThingDef>
         <defName>CM_KaylaJuice</defName>
+        <label>Kayla Juice</label>
+        <description>Strange liquid that always smells like cats and foggy weather. Has many uses. It was named after one of the first settlers of the Rim.</description>
+        <graphicData>
+            <Textures>
+                <texPath>/CM_Things/Item/Resource_CM_KaylaJuice.png</texPath>
+            </Textures>
+        </graphicData>
+        <statbases>
+            <MarketValue>25</MarketValue>
+            <Mass>0.5</Mass>
+        </statBases>
     </ThingDef>
 </Defs>

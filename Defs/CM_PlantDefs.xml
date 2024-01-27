@@ -25,7 +25,7 @@
     <ThingDef ParentName="MeowflowerBase">
         <defName>CM_Meowflower</defName>
         <label>Meowflower</label>
-        <description>A plant cultivated for generations across The Rim. Originally a genetically modified version of catnip, humans now consume it as a normal meal.</description>
+        <description>A plant cultivated for generations across The Rim. Originally a genetically modified version of catnip, humans now consume it as a normal meal. It can be refined into Kayla Juice.</description>
         <plant>
             <growDays>5</growDays>
             <sowWork>250</sowWork>
