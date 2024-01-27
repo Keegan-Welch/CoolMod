@@ -71,7 +71,7 @@
         <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
         <allowedArchonexusCount>80</allowedArchonexusCount>
     </ThingDef>
-    <ThingDef>
+    <ThingDef ParentName="ResourceBase">
         <defName>CM_KaylaJuice</defName>
         <label>Kayla Juice</label>
         <description>Strange liquid that always smells like cats and foggy weather. Has many uses. It was named after one of the first settlers of the Rim.</description>

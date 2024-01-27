@@ -15,4 +15,13 @@
             </li>
         </comps>
     </thingDef>
+
+    <thingDef>
+        <defName>CM_KJSmoothie</defName>
+        <label>Kayla Juice Smoothie</label>
+        <description>Tastie :3</description>
+        <graphicData>
+            <texPath> </texPath>
+        </graphicData>
+    <thingDef>
 </Defs>
