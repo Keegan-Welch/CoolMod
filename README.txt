@@ -1,1 +1,0 @@
-This is a WIP mod. It will be buggy and some things will be broken, I am using this mod as practice for XML and C#, but i think some of the features will be enjoyable
