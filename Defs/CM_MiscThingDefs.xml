@@ -80,7 +80,7 @@
                 <texPath>/CM_Things/Item/Resource_CM_KaylaJuice.png</texPath>
             </Textures>
         </graphicData>
-        <statbases>
+        <statBases>
             <MarketValue>25</MarketValue>
             <Mass>0.5</Mass>
         </statBases>

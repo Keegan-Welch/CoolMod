@@ -3,7 +3,7 @@
     <RecipeDef>
         <defName>CM_MakeKJ</defName>
         <label>Turn Meowflower into Kayla Juice</label>
-        <description>Turn Meowflower into Kayla Juice</label>
+        <description>Turn Meowflower into Kayla Juice</description>
         <jobString>Making Kayla Juice from Meowflower</jobString>
         <effectWorking>Cook</effectWorking>
         <soundWorking>Recipe_CookMeal</soundWorking>
@@ -33,8 +33,4 @@
             <CM_KaylaJuice>5</CM_KaylaJuice>
         </products>
     </RecipeDef>
-
-    <RecipeDef>
-        
-    </recipeDef>
 </Defs>
