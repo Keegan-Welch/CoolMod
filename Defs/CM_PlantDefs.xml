@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <Defs>
-    <ThingDef ParentName="PlantName" Name="MeowflowerBase" Abstract="True">
+    <ThingDef ParentName="PlantBase" Name="MeowflowerBase" Abstract="True">
         <graphicData>
-            <texPath>CM_Things/Plant/Meowflower</texPath>
+            <texPath>CM_Things/Plant/CM_Meowflower</texPath>
             <graphicClass>Graphic_Random</graphicClass>
         </graphicData>
         <selectable>true</selectable>
